@@ -1,0 +1,115 @@
+* { 
+  font-family: "Radio Canada", Times, serif;
+  margin: 0px;
+}
+
+body {
+  background-color: #1d2432;
+}
+
+
+.Main-Body {
+  height: 100%;
+  max-width: 580px;
+  flex-direction: column;
+  display: flex;
+  margin: 0px auto;
+}
+
+.Title {
+  margin: 48px 0 24px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-name {
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+}
+
+.penguin {
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 7px;
+}
+.title-layout {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+}
+
+.title-links {
+  letter-spacing: 2px;
+  margin-right: 8px;
+  color: antiquewhite;
+}
+
+.body1 {
+  flex-direction: column;
+  display: flex;
+}
+
+.body1title {
+  letter-spacing: 2px;
+  font-size: 18px;
+  margin: 50px 0 28px;
+  color: #c2ceee;
+  font-weight: 600;
+}
+
+.body1paragraph {
+  font-size: 16;
+  color: antiquewhite;
+  margin-bottom: 24px;
+}
+
+.skills {
+  color: blanchedalmond;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.body2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.body2title {
+  font-size: 18px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  color: #c2ceee;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.body2paragraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #c2ceee;
+}
+
+.body2text {
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.body3 {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.body3image {
+  margin-right: 20px;
+}
